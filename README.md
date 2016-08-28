@@ -1,5 +1,5 @@
 # Broccoli & Co.
-## Airwallex - Frontend Code Challeng
+## Airwallex - Frontend Code Challenge
 
 A simple yet clean homepage for them that allow users to enter their 1.) name 2.) email to receive email invitations.
 
