@@ -14,7 +14,7 @@ A simple yet clean homepage for them that allow users to enter their 1.) name 2.
 
 Run `npm start` from the command line and you are good to go!
 
-The project is currently setup to transpile code under the _/src_ folder using the _/src/app.js_ file as an entry point.
+The project is currently setup to transpile code under the _/src_ folder using the _/src/index.js_ file as an entry point.
 
 The resulting code ends up in the `public` directory.
 
