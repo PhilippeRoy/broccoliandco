@@ -1,0 +1,13 @@
+#form-container {
+
+  .promo {
+    text-align: center;
+    color: #FFFFFF;
+    p { margin: 15px auto 30px; }
+    text-shadow: 2px 2px 10px rgba(0,0,0,.1);
+    @media only screen and (min-width: 768px) {
+      h2 { font-size: 60px; }
+    }
+  }
+
+}

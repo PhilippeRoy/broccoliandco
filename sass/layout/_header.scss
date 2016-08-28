@@ -1,0 +1,44 @@
+header {
+  width: 100vw;
+  height: 80px;
+  border-bottom: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+
+
+  .container {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+  }
+  @media only screen and (min-width: 768px) {
+    .container {
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: flex-start;
+      justify-content: flex-start;
+
+    }
+  }
+
+  .logo {
+    width: 50px;
+  }
+  .brand-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 5px;
+   }
+}

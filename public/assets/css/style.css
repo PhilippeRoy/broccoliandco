@@ -1,0 +1,165 @@
+.btn-outline {
+  background-color: transparent;
+  color: inherit;
+  transition: all .5s; }
+
+.btn-primary.btn-outline {
+  color: #428bca; }
+
+.btn-success.btn-outline {
+  color: #5cb85c; }
+
+.btn-info.btn-outline {
+  color: #5bc0de; }
+
+.btn-warning.btn-outline {
+  color: #f0ad4e; }
+
+.btn-danger.btn-outline {
+  color: #d9534f; }
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+  color: #fff; }
+
+header {
+  width: 100vw;
+  height: 80px;
+  border-bottom: 1px solid #CCCCCC;
+  background-color: #FFFFFF; }
+  header .container {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  @media only screen and (min-width: 768px) {
+    header .container {
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: flex-start;
+      justify-content: flex-start; } }
+  header .logo {
+    width: 50px; }
+  header .brand-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 5px; }
+
+footer {
+  width: 100vw;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-top: 1px solid #CCCCCC;
+  height: 80px; }
+  footer .container {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  footer .disclaimer .glyphicon.glyphicon-heart {
+    color: #F0AD4E; }
+
+#form-container .promo {
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); }
+  #form-container .promo p {
+    margin: 15px auto 30px; }
+  @media only screen and (min-width: 768px) {
+    #form-container .promo h2 {
+      font-size: 60px; } }
+
+form h2 {
+  text-align: center; }
+
+form hr {
+  width: 50px;
+  border-top: 1px solid #f0ad4e; }
+
+form button {
+  width: 100%; }
+
+.msg-err {
+  text-align: center;
+  min-height: 20px;
+  margin-bottom: 15px; }
+
+.message-box {
+  text-align: center; }
+  .message-box hr {
+    width: 50px;
+    border-top: 1px solid #f0ad4e; }
+  .message-box.success button {
+    width: 80%;
+    margin-top: 15px; }
+
+.site {
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 24em;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.site-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 100vw;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#147c00+14,0bea00+100 */
+  background: #147c00;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #147c00 14%, #0bea00 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #147c00 14%, #0bea00 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #147c00 14%, #0bea00 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#147c00', endColorstr='#0bea00',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .site-content .container {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
